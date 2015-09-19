@@ -546,7 +546,7 @@ a:hover {  text-decoration: underline }
   visibility: visible;
   position: absolute;
   bottom: 0;
-  left: 40%;
+  left: 39%;
 }
 .subscribe-form {  width: 100% }
 .input-notify-after {
@@ -745,7 +745,7 @@ a:hover {  text-decoration: underline }
   overflow: hidden;
 }
 .copyright p {
-  color: #fff;
+  color: #141414;
   display: block;
   padding-top: 25px;
   font-size: 1.1em;
@@ -844,7 +844,7 @@ a:hover {  text-decoration: underline }
     }
     .container-open .notify-after {
       bottom: 60px;
-      left: 22%;
+      left: 10%;
     }
     .notify-after .form-group {  float: left }
 }
