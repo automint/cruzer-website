@@ -389,8 +389,8 @@ p {
 }
 
 .container-open .intro {
-    -webkit-transform: translate3d(0, -100%, 0) translate3d(0, 200px, 0);
-    transform: translate3d(0, -100%, 0) translate3d(0, 200px, 0);
+    -webkit-transform: translate3d(0, -100%, 0) translate3d(0, 135px, 0);
+    transform: translate3d(0, -100%, 0) translate3d(0, 135px, 0);
 }
 /* * ==========================================================================
     2.1.FullScreen Background Slider
@@ -653,7 +653,7 @@ a:hover {
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: 200px 0 0;
+    padding: 150px 0 0;
     background-color: #f7f7f7;
     overflow: hidden;
 }
@@ -1099,7 +1099,12 @@ a:hover {
     .notify-after .form-group {
         float: left
     }
+    .container-open .intro {
+    -webkit-transform: translate3d(0, -100%, 0) translate3d(0, 180px, 0);
+    transform: translate3d(0, -100%, 0) translate3d(0, 180px, 0);
 }
+}
+
 
 @media only screen and (max-width: 304px) {
     /* body{background:#69C238}   */
