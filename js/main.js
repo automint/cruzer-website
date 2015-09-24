@@ -15,16 +15,16 @@
 			window.removeEventListener( 'scroll', noscroll );
 		}
 	}
-
+    
 	function noscroll() {
 		window.scrollTo( 0, 0 );
 	}
-
+    
 	// reset scrolling position
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 
 	// disable scrolling
-	window.addEventListener( 'scroll', noscroll );
+	 window.addEventListener( 'scroll', noscroll );
 
 	trigger.addEventListener( 'click', toggleContent );
 
@@ -66,7 +66,8 @@ function preLoader() {
     });
 };
 
-// niceScroll
+// niceScroll 
+
 $(document).ready(function() {
     "use strict";
     $("body").niceScroll({
@@ -82,4 +83,4 @@ $(document).ready(function() {
 
 
 // niceScroll || scrollbars resize
-$("body").getNiceScroll().resize();
+$("body").getNiceScroll().resize(); 

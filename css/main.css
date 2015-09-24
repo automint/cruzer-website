@@ -190,7 +190,6 @@ h6 {
 h2 {
     font-family: latoregular;
     font-size: 1.5em;
-    text-transform: capitalize;
 }
 
 h4 {
@@ -215,7 +214,7 @@ ul {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .padding-big {
@@ -691,7 +690,7 @@ a:hover {
     visibility: visible;
     position: absolute;
     bottom: 20%;
-    left: 43%;
+    left: 41%;
     padding: 10px 0;
 }
 
@@ -699,7 +698,7 @@ a:hover {
     visibility: visible;
     position: absolute;
     bottom: 0;
-    left: 42%;
+    left: 41%;
     padding: 15px 0
 }
 
