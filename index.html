@@ -39,7 +39,23 @@
 		<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif] -->
+    <!-- Google Analytics: -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+        ga('create', 'UA-67878427-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </head>
 
@@ -145,13 +161,13 @@
                         <p class="wow animated fadeInLeft step-description" data-wow-duration="2s"><strong>Cruzer</strong> helps you manage services of your bike or car and offers a new level of assistance in keeping track of your services digitally.</p>
                     </div>
                     <!-- End step-details -->
-                    <div class="col-md-10 myapps">
+                    <div class="col-md-10 myapps row">
                         <h5>On your mobile and computer</h5>
                         <ul>
                             <!-- FAVORITE APP ICONS START -->
-                            <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="images/android.png" alt="Android" /></li>
-                            <li><img class="wow animated bounceInUp" data-wow-duration="2s" src="images/chrome.png" alt="Web" /></li>
-                            <li><img class="wow animated bounceInUp" data-wow-duration="3s" src="images/iOS.png" alt="iOS" /></li>
+                            <li><img class="wow animated bounceInLeft" data-wow-duration="1s" src="images/android.png" alt="Android" /></li>
+                            <li><img class="wow animated bounceInLeft" data-wow-duration="2s" src="images/chrome.png" alt="Web" /></li>
+                            <li><img class="wow animated bounceInLeft" data-wow-duration="3s" src="images/iOS.png" alt="iOS" /></li>
                         </ul>
                         <!-- FAVORITE APP ICONS END -->
                     </div>
@@ -342,10 +358,10 @@
                         </li>
                     </ul>
                 </div>
-                        <div class="col-md-12 center" style="float:none;">
-                            <p><a href="http://madewithlove.org.in" target="_blank" style="color: #141414">Being made with <i class="fa fa-heart" style="color: red"></i> in India</a>
-                            </p>
-                        </div>
+                <div class="col-md-12 center" style="float:none;">
+                    <p><a href="http://madewithlove.org.in" target="_blank" style="color: #141414">Being made with <i class="fa fa-heart" style="color: red"></i> in India</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -380,7 +396,17 @@
 
     <!--==== Custom Script files ====-->
     <script type="text/javascript" src="js/custom.js"></script>
-
+    <!-- Mouse Flow -->
+    <script type="text/javascript">
+        var _mfq = _mfq || [];
+        (function () {
+            var mf = document.createElement("script");
+            mf.type = "text/javascript";
+            mf.async = true;
+            mf.src = "//cdn.mouseflow.com/projects/153c9d4b-d5f8-4689-8cd4-8d4766214e43.js";
+            document.getElementsByTagName("head")[0].appendChild(mf);
+        })();
+    </script>
 </body>
 
 </html>
