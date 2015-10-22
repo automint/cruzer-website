@@ -380,7 +380,7 @@ left: calc(50% - 110px);
 .fa-angle-down {
   position: absolute;
   left: 50%;
-  bottom: -50px;
+  bottom: -80px;
   color: #fff;
   display: inline-block;
   width: 24px;
@@ -393,7 +393,7 @@ left: calc(50% - 110px);
 }
 
 .logo-image {
-    margin-top: 200px;
+    margin-top: 150px;
     width: 250px;
     height: auto
 }
